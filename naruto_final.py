@@ -4,7 +4,7 @@ from pydantic import BaseModel
 import random
 import uvicorn
 
-app = FastAPI(title="Кто ты из Наруто!")
+app = FastAPI(title="Кто ты из Наруто=")
 
 class Person(BaseModel):
     name: str
